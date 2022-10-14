@@ -1,0 +1,23 @@
+.navbar{
+    span{
+        background-color: $main-color;
+    }
+
+    .nav-link{
+        &:hover{
+            color: $main-color;
+        }
+    }
+}
+
+footer{
+    span{
+        background-color: $main-color;
+    }
+
+
+    img{
+        width: 25px;
+
+    }
+}

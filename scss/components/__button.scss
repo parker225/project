@@ -1,0 +1,27 @@
+#introduce{
+    .btn{
+        background-color: $main-color;
+        &:hover{
+            background-color: darken($main-color, 5);
+        }
+    }
+}
+
+
+#projects{
+    .btn{
+        background-color: $main-color;
+        &:hover{
+            background-color: darken($main-color, 5);
+        }
+    }
+}
+
+#contact{
+    .btn{
+        background-color: $main-color;
+        &:hover{
+            background-color: darken($main-color, 5);
+        }
+    }
+}
