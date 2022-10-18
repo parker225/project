@@ -1,6 +1,8 @@
 .navbar{
-    span{
-        background-color: $main-color;
+    .navbar-brand{
+        span{
+            background-color: $main-color;
+        }
     }
 
     .nav-link{
@@ -9,6 +11,26 @@
         }
     }
 }
+
+#skills{
+     .col-md-1{
+        img{
+           @include smartphone{
+            width: 50px;
+           }
+        }
+     }
+   }
+
+   #contact{
+      img{
+        @include smartphone{
+            height: 250px;
+        }
+      }
+   }
+
+
 
 footer{
     span{
